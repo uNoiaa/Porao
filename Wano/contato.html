@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Projeto | Web Design</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="author" content="Abner da Silva Noia">
+        <meta name="keywords" content="lala, sinuca, futebol, bauducco">
+        <meta name="description" content="lala é o melhor lugar do mundo, Aproveite!!">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <div class="container flex space-between">
+                <div class="logo">
+                    <a href="index.html"><img src="Imagens/apple-touch-icon.png" title="Tokita" alt="Tokita"></a>
+                </div><!--Logo-->
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li class="selected"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!--menu-desktop-->
+                <nav class="menu-mobile">
+                    <h2><i class="fas fa-bars"></i></h2>
+                    <div class="box-mobile flex column">
+                        <ul>
+                            <li style="border-top: 1px solid black"><a href="index.html">Home</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li class="selected"><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div><!--Box-Mobile-->
+                </nav><!--menu-mobile-->
+            </div><!--Container--><!--Flex--><!--Space-Between-->
+        </header>
+<body>
+
+    <section style="background-image: url(Imagens/contatos-title-page.png); background-position: center;" class="title-page">
+        <div class="overlay__title-page"></div>
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, atque labore. Quaerat, pariatur? Accusantium tenetur harum.</p>
+        </div><!--Container-->
+    </section><!--Title-Page-->
+
+    <section class="contato">
+        <div class="container flex">
+            <div class="formulario w60">
+                <h2>Entre em contato conosco, responderemos o mais breve o possivel!</h2>
+                <form method="post">
+                    <div class="input-group flex">
+                        <div class="input-single w50">
+                            <input type="text" name="nome" placeholder="Nome..." required>
+                        </div><!--Input-Single--><!--w50-->
+                        
+                        <div class="input-single w50">
+                            <input type="text" name="sobrenome" placeholder="Sobrenome..." required>
+                        </div><!--Input-Single--><!--w50-->
+                    </div><!--Input-Group--><!--Flex-->
+                    
+                    <div class="input-group flex">
+                        <div class="input-single w50">
+                            <input type="email" name="email" placeholder="E-mail..." required>
+                        </div><!--Input-Single--><!--w50-->
+                        
+                        <div class="input-single w50">
+                            <input type="text" name="celular" placeholder="Celular..." required>
+                        </div><!--Input-Single--><!--w50-->
+                    </div><!--Input-Group--><!--Flex-->
+                    
+                    <div class="textarea-single w100">
+                        <textarea name="mensagem" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+                    </div><!--Textarea_Single--><!--W100-->
+
+                    <div class="submit-button w100">
+                        <input type="submit" value="enviar" name="submit">
+                    </div><!--Submit-Button--><!--W100-->
+                </form>
+            </div><!--Formulario-->
+
+            <div class="tags-form w40">
+                <h2><i class="fas fa-comment"></i> Fale com a nossa equipe </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, nulla.</p>
+                <div class="tag-box flex column">
+                    <div class="tag-single">
+                        <p><i class="fas fa-phone-alt"></i> (11) 11111-1111</p>
+                    </div><!--Tag-Single-->
+
+                    <div class="tag-single">
+                        <p><i class="fab fa-instagram"></i> @samurai</p>
+                    </div><!--Tag-Single-->
+
+                    <div class="tag-single">
+                        <p><i class="fab fa-facebook"></i> lorem ipsum</p>
+                    </div><!--Tag-Single-->
+                </div><!--Tag-Box--><!--Column-->
+            </div><!--Tags-Form-->
+        </div><!--Container-->
+    </section><!--Contato-->
+
+    <footer class="footer1">
+        <div class="container flex">
+            <div class="w33 center">
+                <h2>Aonde estamos</h2>
+                <p><i class="fas fa-map-pin"></i> Av. Paulista, São Paulo - SP</p>
+                <p><i class="fas fa-phone-alt"></i> (11)11111-1111</p>
+            </div><!--W33-->
+
+            <div class="w33 center">
+                <h2>Links Úteis</h2>
+                <p><a href="https://github.com/uNoiaa" target="_blank">uNoiaa</a></p>
+                <p><a href="https://www.google.com/" target="_blank">Google</a></p>
+            </div><!--W33-->
+
+            <div class="w33 center">
+                <h2>Conecte-se conosco</h2>
+                <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div><!--W33-->
+        </div><!--Container--><!--Flex-->
+    </footer><!--Footer1-->
+
+    <footer class="footer2 center">
+        <div class="container">
+            <p>Todos os direitos reservados.</p>
+        </div>
+    </footer><!--Footer2-->
+
+    <script> src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/js/all.min.js"</script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js
+        "></script>
+        <script>
+            $('nav.menu-mobile h2').click(function(){
+                $('.box-mobile ul').slideToggle();
+            });
+        </script>
+</body>
+</html>

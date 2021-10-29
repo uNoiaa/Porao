@@ -1,0 +1,1 @@
+Ainda pretendo adicionar algumas coisas nessa belezura em JS quando eu estiver mais avançado na linguagem.
